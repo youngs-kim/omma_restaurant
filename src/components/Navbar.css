@@ -1,5 +1,5 @@
 .logo {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .logo-img {
@@ -10,7 +10,14 @@
 }
 
 .nav {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid #333333;
+}
+
+.nav-menu {
+  font: 15px Arial, sans-serif;
+  text-decoration: none;
+  margin-bottom: 1em;
 }
