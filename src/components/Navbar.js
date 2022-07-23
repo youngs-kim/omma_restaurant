@@ -1,4 +1,5 @@
 import './Navbar.css';
+import MainPage from './MainPage';
 
 const Navbar = () => {
   return (
