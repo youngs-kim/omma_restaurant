@@ -1,11 +1,11 @@
 import './Navbar.css';
-import MainPage from './MainPage';
+const photo = require('../image/omma-logo-big.png');
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="nav-bar">
       <div className="logo">
-        <h1>Omma Restaurant</h1>
+        <img className="logo-img" src={photo} />
       </div>
       <div className="nav">
         <span>Home</span>

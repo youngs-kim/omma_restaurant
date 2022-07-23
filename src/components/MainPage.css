@@ -1,23 +1,48 @@
-.image-one {
-  border: 1px solid black;
+.first {
+  margin-top: 4em;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.description-one {
-  border: 1px solid black;
+.bulgogi {
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid black; */
+}
+.writing-one {
+  /* border: 1px solid black; */
 }
 
-.image-two {
-  border: 1px solid black;
+.second {
+  margin-top: 4em;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+.spicy-pork {
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid black; */
 }
 
-.description-two {
-  border: 1px solid black;
+.writing-two {
+  /* border: 1px solid black; */
 }
 
-.image-three {
-  border: 1px solid black;
+.third {
+  margin-top: 4em;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.bibimbap {
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border: 1px solid black; */
 }
 
-.description-three {
-  border: 1px solid black;
+.writing-three {
+  /* border: 1px solid black; */
 }
