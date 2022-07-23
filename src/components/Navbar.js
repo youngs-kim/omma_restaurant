@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './Navbar.css';
 const photo = require('../image/omma-logo-big.png');
 
@@ -8,8 +9,8 @@ const Navbar = () => {
         <img className="logo-img" src={photo} />
       </div>
       <div className="nav">
-        <span>Home</span>
-        <span>About Us</span>
+        <Link to="/">Home</Link>
+        <Link to="/about">About Us</Link>
         <span>Menu</span>
         <span>Review</span>
       </div>
