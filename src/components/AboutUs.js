@@ -20,6 +20,7 @@ const AboutUs = () => {
         <div className="address">
           <h5 className="address-font">720 N Lake Ave, UNIT #8</h5>
           <h5 className="address-font">Pasadena, CA 91104</h5>
+          <h5 className="address-font">Phone : 626-111-2222</h5>
         </div>
       </div>
     </div>

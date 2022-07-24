@@ -9,22 +9,30 @@ const MainPage = () => {
       <div className="first">
         <img className="bulgogi" src={bulgogi} />
         <div className="writing-one">
-          <h4>Try Our Home-styled Food!</h4>
-          <h5>description</h5>
+          <h4 className="main-writing">Try Our Home-styled Food!</h4>
+          <h5 className="main-writing">
+            Experience a wide array of complex flavors that will truly give your
+            palate a new perception of taste with our Home-styled Food.
+          </h5>
         </div>
       </div>
       <div className="second">
         <img className="spicy-pork" src={spicyPork} />
         <div className="writing-two">
-          <h4>We Do Delivery</h4>
-          <h5>description descrition descrition</h5>
+          <h4 className="main-writing">We Do Delivery</h4>
+          <h5 className="main-writing">
+            Enjoy our food by doing delivery to your door for conveinence.
+          </h5>
         </div>
       </div>
       <div className="third">
         <img className="bibimbap" src={bibimbap} />
         <div className="writing-three">
-          <h4>We Do Catering</h4>
-          <h5>description descrition descrition</h5>
+          <h4 className="main-writing">We Do Catering</h4>
+          <h5 className="main-writing">
+            Have our food deliver and set up and ready to eat with co-workers by
+            ordering Catering.
+          </h5>
         </div>
       </div>
     </div>

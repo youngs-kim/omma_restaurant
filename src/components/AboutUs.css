@@ -9,12 +9,12 @@
 }
 
 .about-title {
-  font: 15px Arial, sans-serif;
+  font: 15px Proxima Nova;
   text-align: center;
 }
 
 .about-description {
-  font: 13px Arial, sans-serif;
+  font: 13px Proxima Nova;
   text-align: center;
 }
 
@@ -25,4 +25,15 @@
 
 .guide {
   margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.address {
+  margin-top: 1em;
+}
+
+.address-font {
+  text-align: center;
+  font: 15px Proxima Nova;
 }
