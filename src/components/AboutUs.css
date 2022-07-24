@@ -1,4 +1,28 @@
-.about-container {
-  border: 1px solid blue;
-  margin-top: 7em;
+.about-us {
+  /* border: 1px solid blue; */
+  margin-top: 3em;
+  background: #e2cfc4;
+  border-radius: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-title {
+  font: 15px Arial, sans-serif;
+  text-align: center;
+}
+
+.about-description {
+  font: 13px Arial, sans-serif;
+  text-align: center;
+}
+
+.map {
+  width: 22em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.guide {
+  margin-top: 5em;
 }
