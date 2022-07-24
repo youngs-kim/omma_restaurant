@@ -60,7 +60,7 @@ const Menu = () => {
         <img className="food-img" src={chicken} alt={chicken} />
         <div>
           <h5 className="food-title">Korean Fried Chicken</h5>
-          <h6 className="price">$16.99</h6>
+          <h6 className="price">$17.99</h6>
           <h6>
             8pcs of Korean Style Chicken Wings. Light and crispy with an added
             kick.
