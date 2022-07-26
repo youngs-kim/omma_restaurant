@@ -36,4 +36,19 @@
 .address-font {
   text-align: center;
   font: 15px Proxima Nova;
+  font-weight: 400;
+}
+
+.like {
+  margin-top: 4em;
+  padding-bottom: 5em;
+}
+.follow {
+  text-align: center;
+  font: 20px Proxima Nova;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
 }

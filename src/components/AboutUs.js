@@ -1,4 +1,5 @@
 import './AboutUs.css';
+import { SiInstagram, SiYelp, SiFacebook } from 'react-icons/si';
 const map = require('../image/map.png');
 
 const AboutUs = () => {
@@ -21,6 +22,14 @@ const AboutUs = () => {
           <h5 className="address-font">720 N Lake Ave, UNIT #8</h5>
           <h5 className="address-font">Pasadena, CA 91104</h5>
           <h5 className="address-font">Phone : 626-111-2222</h5>
+        </div>
+      </div>
+      <div className="like">
+        <h1 className="follow">FOLLOW & LIKE US ON</h1>
+        <div className="social">
+          <SiInstagram />
+          <SiFacebook />
+          <SiYelp />
         </div>
       </div>
     </div>
