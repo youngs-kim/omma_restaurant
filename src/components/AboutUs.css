@@ -36,6 +36,7 @@
 .address-font {
   text-align: center;
   font: 15px Proxima Nova;
+  font-weight: 400;
 }
 
 .like {
