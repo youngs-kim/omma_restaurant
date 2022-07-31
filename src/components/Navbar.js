@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link className="nav-menu" to="menu">
             Menu
           </Link>
-          <Link className="nav-menu" to="review">
+          <Link className="nav-menu special" to="review">
             Review
           </Link>
         </nav>
