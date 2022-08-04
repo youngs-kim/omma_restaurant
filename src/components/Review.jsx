@@ -6,7 +6,7 @@ const Review = () => {
 
   return (
     <div className="review-container">
-      <form>
+      <form className="review">
         <input type="text" value={review} />
         <button>Add</button>
       </form>
