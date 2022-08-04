@@ -1,7 +1,15 @@
+import { useState } from 'react';
+import './Review.css';
+
 const Review = () => {
+  const [review, setReview] = useState('');
+
   return (
     <div className="review-container">
-      <h1> Review Testing</h1>
+      <form>
+        <input type="text" value={review} />
+        <button>Add</button>
+      </form>
     </div>
   );
 };
