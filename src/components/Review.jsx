@@ -8,13 +8,13 @@ const Review = () => {
     <div className="review-container">
       <form className="review">
         <input type="text" value={review} />
-        <label>Rating</label>
+        <label>Rating(5/)</label>
         <select>
-          <option>5/5</option>
-          <option>4/5</option>
-          <option>3/5</option>
-          <option>2/5</option>
-          <option>1/5</option>
+          <option>5</option>
+          <option>4</option>
+          <option>3</option>
+          <option>2</option>
+          <option>1</option>
         </select>
         <button>Add</button>
       </form>
