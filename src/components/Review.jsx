@@ -6,8 +6,7 @@ const Review = () => {
 
   return (
     <div className="review-container">
-      <form className="review">
-        <input type="text" value={review} />
+      <div className="review-star">
         <label>Rating(5/)</label>
         <select>
           <option>5</option>
@@ -16,6 +15,9 @@ const Review = () => {
           <option>2</option>
           <option>1</option>
         </select>
+      </div>
+      <form className="review">
+        <input type="text" value={review} />
         <button>Add</button>
       </form>
       <ul></ul>
