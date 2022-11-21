@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/omma_restaurant/static/css/main.ddfdc7e7.css",
-    "main.js": "/omma_restaurant/static/js/main.4e59cb4d.js",
+    "main.css": "/omma_restaurant/static/css/main.969e409f.css",
+    "main.js": "/omma_restaurant/static/js/main.0a6bf884.js",
     "static/media/omma-spicy-pork.jpg": "/omma_restaurant/static/media/omma-spicy-pork.f61d0de2c4c7b906df80.jpg",
     "static/media/omma-bulgogi.jpg": "/omma_restaurant/static/media/omma-bulgogi.ed45a0f387a682b3d79b.jpg",
     "static/media/omma-bulque.jpg": "/omma_restaurant/static/media/omma-bulque.d75c9c526d8c077dcc25.jpg",
@@ -10,11 +10,11 @@
     "static/media/omma-logo-big.png": "/omma_restaurant/static/media/omma-logo-big.10ee8029015ad2f1e654.png",
     "static/media/map.png": "/omma_restaurant/static/media/map.5a13283c9ad79ba1d0f9.png",
     "index.html": "/omma_restaurant/index.html",
-    "main.ddfdc7e7.css.map": "/omma_restaurant/static/css/main.ddfdc7e7.css.map",
-    "main.4e59cb4d.js.map": "/omma_restaurant/static/js/main.4e59cb4d.js.map"
+    "main.969e409f.css.map": "/omma_restaurant/static/css/main.969e409f.css.map",
+    "main.0a6bf884.js.map": "/omma_restaurant/static/js/main.0a6bf884.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddfdc7e7.css",
-    "static/js/main.4e59cb4d.js"
+    "static/css/main.969e409f.css",
+    "static/js/main.0a6bf884.js"
   ]
 }
