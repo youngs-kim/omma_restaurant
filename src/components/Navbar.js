@@ -7,6 +7,7 @@ import Review from './Review';
 const photo = require('../image/omma-logo-big.png');
 
 const Navbar = () => {
+  //testing
   return (
     <div className="nav-bar">
       <div className="logo">
