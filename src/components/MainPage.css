@@ -16,7 +16,7 @@
 }
 .writing-one {
   /* border: 1px solid black; */
-  width: 15em;
+  width: 30em;
 }
 
 .second {
@@ -36,7 +36,7 @@
 .writing-two {
   /* border: 1px solid black; */
   margin-top: 1em;
-  width: 15em;
+  width: 30em;
 }
 
 .third {
@@ -54,9 +54,9 @@
 .writing-three {
   /* border: 1px solid black; */
   margin-top: 1em;
-  width: 15em;
+  width: 30em;
 }
 
 .main-writing {
-  font: 15px Proxima Nova;
+  font: 25px Proxima Nova;
 }

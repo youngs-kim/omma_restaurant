@@ -9,17 +9,17 @@
 }
 
 .about-title {
-  font: 15px Proxima Nova;
+  font: 30px Proxima Nova;
   text-align: center;
 }
 
 .about-description {
-  font: 13px Proxima Nova;
+  font: 25px Proxima Nova;
   text-align: center;
 }
 
 .map {
-  width: 22em;
+  width: 40em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -35,7 +35,7 @@
 
 .address-font {
   text-align: center;
-  font: 15px Proxima Nova;
+  font: 25px Proxima Nova;
   font-weight: 400;
 }
 
@@ -45,7 +45,7 @@
 }
 .follow {
   text-align: center;
-  font: 20px Proxima Nova;
+  font: 40px Proxima Nova;
 }
 
 .social {
