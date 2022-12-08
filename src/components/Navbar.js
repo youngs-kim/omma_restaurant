@@ -7,13 +7,14 @@ import Review from './Review';
 const photo = require('../image/omma-logo-big.png');
 
 const Navbar = () => {
-  //testing
   return (
     <div className="nav-bar">
-      <div className="logo">
-        <img className="logo-img" src={photo} />
-      </div>
       <Router>
+        <div className="logo">
+          <Link to="/">
+            <img className="logo-img" src={photo} alt="logo" />
+          </Link>
+        </div>
         <nav className="nav">
           <Link className="nav-menu" to="/">
             Home
@@ -28,8 +29,9 @@ const Navbar = () => {
             Review
           </Link> */}
         </nav>
+        <hr />
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          {/* <Route path="/omma_restaurant" element={<MainPage />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
           <Route path="/review" element={<Review />} />
